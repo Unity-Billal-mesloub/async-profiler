@@ -23,20 +23,20 @@ to learn about more features.
 
 # Download
 
-### Stable release: [4.3](https://github.com/async-profiler/async-profiler/releases/tag/v4.3)
+### Stable release: [4.3](https://github.com/Unity-Billal-mesloub/async-profiler/releases/tag/v4.3)
 
-- Linux x64: [async-profiler-4.3-linux-x64.tar.gz](https://github.com/async-profiler/async-profiler/releases/download/v4.3/async-profiler-4.3-linux-x64.tar.gz)
-- Linux arm64: [async-profiler-4.3-linux-arm64.tar.gz](https://github.com/async-profiler/async-profiler/releases/download/v4.3/async-profiler-4.3-linux-arm64.tar.gz)
-- macOS arm64/x64: [async-profiler-4.3-macos.zip](https://github.com/async-profiler/async-profiler/releases/download/v4.3/async-profiler-4.3-macos.zip)
-- Profile converters: [jfr-converter.jar](https://github.com/async-profiler/async-profiler/releases/download/v4.3/jfr-converter.jar)
+- Linux x64: [async-profiler-4.3-linux-x64.tar.gz](https://github.com/Unity-Billal-mesloub/async-profiler/releases/download/v4.3/async-profiler-4.3-linux-x64.tar.gz)
+- Linux arm64: [async-profiler-4.3-linux-arm64.tar.gz](https://github.com/Unity-Billal-mesloub/async-profiler/releases/download/v4.3/async-profiler-4.3-linux-arm64.tar.gz)
+- macOS arm64/x64: [async-profiler-4.3-macos.zip](https://github.com/Unity-Billal-mesloub/async-profiler/releases/download/v4.3/async-profiler-4.3-macos.zip)
+- Profile converters: [jfr-converter.jar](https://github.com/Unity-Billal-mesloub/async-profiler/releases/download/v4.3/jfr-converter.jar)
 
 ### Nightly builds
 
-[The most recent binaries](https://github.com/async-profiler/async-profiler/releases/tag/nightly) corresponding
+[The most recent binaries](https://github.com/Unity-Billal-mesloub/async-profiler/releases/tag/nightly) corresponding
 to the latest successful commit in `master`.
 
 For a build corresponding to one of the previous commits, go to
-[Nightly Builds](https://github.com/async-profiler/async-profiler/actions/workflows/test-and-publish-nightly.yml),
+[Nightly Builds](https://github.com/Unity-Billal-mesloub/async-profiler/actions/workflows/test-and-publish-nightly.yml),
 click the desired build and scroll down to the artifacts section. These binaries are kept for 30 days.
 
 # Quick start
@@ -51,7 +51,7 @@ $ asprof -d 30 -f flamegraph.html <PID>
 The above command translates to: run profiler for 30 seconds and save results to `flamegraph.html`
 as an interactive [Flame Graph](docs/FlamegraphInterpretation.md) that can be viewed in a browser.
 
-[![FlameGraph](/.assets/images/flamegraph.png)](https://htmlpreview.github.io/?https://github.com/async-profiler/async-profiler/blob/master/.assets/html/flamegraph.html)
+[![FlameGraph](/.assets/images/flamegraph.png)](https://htmlpreview.github.io/?https://github.com/Unity-Billal-mesloub/async-profiler/blob/main/.assets/html/flamegraph.html)
 
 Find more details in the [Getting started guide](docs/GettingStarted.md).
 
@@ -59,7 +59,7 @@ Find more details in the [Getting started guide](docs/GettingStarted.md).
 
 ### Build status
 
-[![Build Status](https://github.com/async-profiler/async-profiler/actions/workflows/test-and-publish-nightly.yml/badge.svg?branch=master)](https://github.com/async-profiler/async-profiler/actions/workflows/test-and-publish-nightly.yml)
+[![Build Status](https://github.com/Unity-Billal-mesloub/async-profiler/actions/workflows/test-and-publish-nightly.yml/badge.svg?branch=main)](https://github.com/Unity-Billal-mesloub/async-profiler/actions/workflows/test-and-publish-nightly.yml)
 
 ### Minimum requirements
 
