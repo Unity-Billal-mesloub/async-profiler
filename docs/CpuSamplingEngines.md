@@ -30,7 +30,7 @@ is to simply increase file descriptor limit.
 `itimer` mode is based on [setitimer(ITIMER_PROF)](https://man7.org/linux/man-pages/man2/setitimer.2.html)
 syscall, which ideally generates a signal every given interval of CPU time consumed by the process.
 Ideally, both `itimer` and `cpu` should collect the same number of samples. Typically,
-profiles indeed look very similar. However, in [some cases](https://github.com/golang/go/issues/14434),
+profiles indeed look very similar. However, in [some cases](https://github.com/Unity-Billal-mesloub/go/issues/14434),
 `cpu` profile appears more accurate, since a signal is delivered exactly to the thread
 that overflowed a hardware counter. In contrast, `itimer` has the following limitations:
 
