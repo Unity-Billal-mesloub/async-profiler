@@ -207,15 +207,9 @@ where `getProperty` method is called from.
 Only non-native Java methods are supported. To profile a native method,
 use hardware breakpoint event instead, e.g. `-e Java_java_lang_Throwable_fillInStackTrace`
 
-**Be aware** that if you attach async-profiler at runtime, the first instrumentation
-of a non-native Java method may cause the [deoptimization](https://github.com/openjdk/jdk/blob/bf2e9ee9d321ed289466b2410f12ad10504d01a2/src/hotspot/share/prims/jvmtiRedefineClasses.cpp#L4092-L4096)
-of all compiled methods. The subsequent instrumentation flushes only the _dependent code_.
-
-The massive CodeCache flush doesn't occur if attaching async-profiler as an agent.
-
 ### Latency profiling
 
-Please refer to our blog post on [latency profiling](https://github.com/async-profiler/async-profiler/discussions/1497)
+Please refer to our blog post on [latency profiling](https://github.com/Unity-Billal-mesloub/async-profiler/discussions/)
 to know more about this profiling mode.
 
 ## Native function profiling
