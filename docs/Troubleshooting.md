@@ -50,7 +50,7 @@ Usually this happens in one of the following cases:
 
 The connection with the target JVM has been established, but JVM is unable to load profiler shared library.
 Make sure the user of JVM process has permissions to access `libasyncProfiler.so` by exactly the same absolute path.
-For more information see [#78](https://github.com/async-profiler/async-profiler/issues/78).
+For more information see [#78](https://github.com/Unity-Billal-mesloub/async-profiler/issues/).
 
 ### Perf events unavailable
 
@@ -85,7 +85,7 @@ Restarting the affected Java processes should resolve the issue.
 JVM shared library does not export `gHotSpotVMStructs*` symbols -
 apparently this is not a HotSpot JVM. Sometimes the same message
 can be also caused by an incorrectly built JDK
-(see [#218](https://github.com/async-profiler/async-profiler/issues/218)).
+(see [#218](https://github.com/Unity-Billal-mesloub/async-profiler/issues/)).
 In these cases installing JDK debug symbols may solve the problem.
 
 ### Could not parse symbols from <libname.so>
@@ -108,7 +108,7 @@ Make sure the path specified in `-f` option is correct and is accessible by the 
 
 - Too short profiling interval may cause continuous interruption of heavy
   system calls like `clone()`, so that it will never complete;
-  see [#97](https://github.com/async-profiler/async-profiler/issues/97).
+  see [#97](https://github.com/Unity-Billal-mesloub/async-profiler/issues/).
   The workaround is simply to increase the interval.
 
 - When agent is not loaded at JVM startup (by using -agentpath option) it is
